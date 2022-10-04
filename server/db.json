@@ -11,23 +11,12 @@
       "userId": 1,
       "completed": true,
       "id": 2
-    }
-  ],
-  "posts": [
+    },
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "456",
+      "userId": 1,
+      "completed": false,
+      "id": 3
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
