@@ -24,7 +24,7 @@ const App = () => {
 
     return (
         <div className={"App"}>
-            <h1>Todo 01</h1>
+            <h1>Todo 01 withAsyncThunk</h1>
 
             < InputField title={title}
                          setText={setText}
