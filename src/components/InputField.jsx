@@ -1,10 +1,10 @@
 import React from "react";
 
-function InputField({title, addTodo, setText}) {
+function InputField({title, addTask, setText}) {
   return (
     <label>
       <input value={title} onChange={(e) => setText(e.target.value)} />
-      <button onClick={addTodo}>Add todo</button>
+      <button onClick={addTask}>Add todo</button>
     </label>
   );
 }

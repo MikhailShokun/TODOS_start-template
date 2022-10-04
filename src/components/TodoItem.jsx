@@ -1,6 +1,6 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import {deleteTodo, toggleStatus} from "../app/todoSlice";
+import {deleteTodo, toggleStatus} from "../app/todos/todoSlice";
 
 function TodoItem({id, title, completed}) {
     const dispatch = useDispatch();
