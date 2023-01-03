@@ -1,6 +1,6 @@
 import React from "react";
 
-function InputField({addTodo, text, setText}) {
+function InputField({text, addTodo, setText}) {
   return (
     <label>
       <input value={text} onChange={(e) => setText(e.target.value)} />
