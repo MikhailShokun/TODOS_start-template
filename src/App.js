@@ -3,7 +3,7 @@ import "./App.css";
 import InputField from "./components/InputField";
 import TodoList from "./components/TodoList";
 import {useDispatch} from "react-redux";
-import {addTodo} from "./app/todoSlice";
+import {addTodo} from "./app/todos/todoSlice";
 
 const App = () => {
     const dispatch = useDispatch();
